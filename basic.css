@@ -1,0 +1,63 @@
+.container > div {
+  padding: 10px;
+  text-align: right;
+  font-size: 2em;
+  color: grey;
+}
+
+html,
+body {
+  background-color: white;
+  margin: 10px;
+}
+
+.container > div:nth-child(1) {
+  background-color: white;
+}
+
+.container > div:nth-child(2) {
+  background-color: white;
+}
+
+.container > div:nth-child(3) {
+  background-color: white;
+}
+
+.container > div:nth-child(4) {
+  background-color: white;
+}
+
+.container > div:nth-child(5) {
+  background-color: white;
+}
+
+.container > div:nth-child(6) {
+  background-color: white;
+}
+::placeholder{
+  color: #ffeead;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.container > li {
+  background-color: #96ceb4;
+  justify-content:left;
+}
+
+.container > li {
+  padding: 10px;
+  text-align: left;
+  font-size: 2em;
+  color: grey;
+  box-sizing: border-box;
+  background-color: white;
+  list-style-type: none;
+}
+
+.container {
+  padding: 0;
+}
+
